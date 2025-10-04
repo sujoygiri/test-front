@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class Global {
-  BASE_URL = 'http://localhost:3000';
+  BASE_URL = 'https://test-back-production-762d.up.railway.app';
 
   constructor(private http: HttpClient) {}
 
